@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+}
+#title
+{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.login{
+    margin-left: 500px;
+    height: 350px;
+    width: 500px;
+    border-radius: 2px;
+    background: radial-gradient(circle farthest-side at right bottom, rgba(157,164,174,0.9), rgba(98,99,104,0.9) 40%, rgba(121,121,121, 0.9) 99%);
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+
+}
+input[type=submit] {
+    background-color: #4c61a3;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=email], input[type=password] {
+    padding: 6px 10px;
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.link
+{
+
+    color: black;
+    margin-top: 30px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+a:hover
+{
+    font-weight: bold;
+}
+
